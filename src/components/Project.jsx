@@ -7,6 +7,7 @@ import PerfectEstate_1 from '../image/PerfectEstate_1.png';
 import SimpleCalculator from '../image/SimpleCalculator.png';
 import SocialMedia from '../image/SocialMedia.png';
 import TodoApp from '../image/TodoApp.png';
+import ReactReduxCounter from '../image/counter-react-redux.png';
 
 const Project = ({ projectLink }) => {
     const [profileImage, setProfileImage] = useState(ProfileImage);
@@ -51,6 +52,12 @@ const Project = ({ projectLink }) => {
             setProjectDescription("React app created to learn state management using react contexts as well as fetch methods. Used technologyies reactjs, tailwindcss, Html, Css, External apis.");
             setProjectTags("#Reactjs#tailwindcss#react-icons#Html#css#js");
             setProfileImage(SocialMedia)
+        }
+        else if (projectLink === "https://counter-react-redux.onrender.com/") {
+            setProjectTitle("ReactReduxCounter");
+            setProjectDescription("This app created to learn state menagement using Redux. Used technologies Html, Css, Js, Reactjs, Reduxjs, React-Icons.");
+            setProjectTags("#Reactjs#tailwindcss#react-icons#Html#css#js#Reduxjs");
+            setProfileImage(ReactReduxCounter)
         }
     }, [projectLink])
 

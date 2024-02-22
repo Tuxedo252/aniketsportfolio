@@ -5,6 +5,7 @@ const Projects = () => {
     const projectLink = [
         "https://perfectestate.onrender.com/",
         "https://socialmedia-2rsq.onrender.com/",
+        "https://counter-react-redux.onrender.com/",
         "https://bharatclock.onrender.com/",
         "https://calculator-llg5.onrender.com/",
         "https://fragmments.onrender.com/",
