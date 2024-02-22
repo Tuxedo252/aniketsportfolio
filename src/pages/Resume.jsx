@@ -2,6 +2,7 @@ import React from 'react';
 import { PiMapPinFill } from "react-icons/pi";
 
 const Resume = () => {
+    const resumePdfPath = import.meta.env.BASE_URL + 'Resume.pdf';
     return (
         <div className=' flex flex-col mt-[10rem] md:mt-[5rem]  w-full p-0 md:pl-[5rem] pr-0 md:pr-[5rem] '>
             <div className='mt-3 mb-8 p-3 flex flex-col md:flex-row  items-start justify-center w-full '>
@@ -9,7 +10,7 @@ const Resume = () => {
                     <h1 className='flex flex-start text-6xl font-bold text-slate-100'>RESUME</h1>
                 </div>
                 <div className='flex items-center justify-center md:justify-start w-[100%] md:w-[75%] h-full  mt-4 md:mt-0'>
-                    <a href="path/to/your/file" download=''>
+                    <a href={resumePdfPath} download='Aniket_Markams_Resume.pdf'>
                         <button className="bg-red-500 text-white font-bold p-2 shadow-lg">Resume.pdf</button>
                     </a>
                 </div>

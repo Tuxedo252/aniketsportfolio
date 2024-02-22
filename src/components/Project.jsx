@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ProfileImage from '../image/people-3338167_1920.jpg';
+// import ProfileImage from '../image/people-3338167_1920.jpg';
 import BharatClock from '../image/BharatClock.png';
 import Fragments from '../image/Fragments.png';
 import PerfectEstate from '../image/PerfectEstate.png';
@@ -10,7 +10,7 @@ import TodoApp from '../image/TodoApp.png';
 import ReactReduxCounter from '../image/counter-react-redux.png';
 
 const Project = ({ projectLink }) => {
-    const [profileImage, setProfileImage] = useState(ProfileImage);
+    const [profileImage, setProfileImage] = useState("");
     const [projectTitle, setProjectTitle] = useState("");
     const [projectDescription, setProjectDescription] = useState("");
     const [projectTags, setProjectTags] = useState("");
