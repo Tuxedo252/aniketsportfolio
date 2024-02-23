@@ -1,6 +1,8 @@
 import React from 'react';
 import ProfileImage from '../image/people-3338167_1920.jpg';
-import ProfileImage_2 from '../image/torn-paper-7864694_1920.png'
+import ProfileImage_2 from '../image/torn-paper-7864694_1920.png';
+import MyImage from '../image/MyImage.jpeg';
+import MyImage_2 from '../image/MyImage_2.jpeg';
 
 const Introduction = () => {
     return (
@@ -11,7 +13,7 @@ const Introduction = () => {
                     </div>
                 </div>
                 <div className='w-full p-8'>
-                    <h1 className='text-5xl'>Welcome to Aniket Markam's Portfolio</h1>
+                    <h1 className='text-8xl'>Welcome to Aniket Markam's Portfolio</h1>
                     <p className='mt-[1rem]'>Enthusiastic MERN stack developer with a fervor for crafting seamless and innovative web applications. Proficient in MongoDB, Express.js, React, and Node.js, I thrive on transforming ideas into dynamic and user-centric solutions. Eager to contribute expertise in full-stack development to elevate digital experiences.</p>
                 </div>
             </div>
